@@ -1,0 +1,27 @@
+ALgoritmos
+Linguagem
+Frontend = cliente
+
+É feito um pedido do cliente, e este vai pro servidor
+
+HTTP (HyperText Transfer Protocol): regras de transferencia de hipertexto
+URL (Universal resource location): um dado tem um endereço no mundo todo
+
+HTML (HyperText Markup Language)
+
+Com ! e enter, a estrutura do código se faz
+Apenas escrevendo o q está entre os <>, ele já completa com tudo
+
+CSS (Cascading Style Sheets) : folha de estilos em cascata
+Seletor de um elemento html, propriedade e o valor da propriedade
+
+Pixel é unidade de medida fixa, por isso uso medida relativa, o rem, ou root element
+O navegador determina que a fonte é 16px, o padrão, ou seja, 4.5rem é 72px
+
+Responsivo é oque responde ao tamanho da tela
+Design atual é o mobile first, desenvolvendo primeiro para dispositivos moveis
+
+Class é como o id, mas pode ser repetido
+
+
+
