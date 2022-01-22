@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt_BR">
 
-
   <head>
     <!-- PAGE INFO -->
     <meta charset="UTF-8" />
@@ -13,8 +12,10 @@
     />
     <title>FastHome</title>
 
+    <!--Icons-->
+    <link rel="stylesheet" href="assets/style.css" />
+    <!--Style-->
     <link rel="stylesheet" href="style.css" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,23 +24,27 @@
     />
   </head>
 
-
   <body>
-
     <header id="header">
-      <!--Uso id pra referenciar apenas esse header no css, e não tudo que é header-->
       <nav class="container">
         <a class="logo" href="#">fast<span>home<span></a>
-        <div class="menu">...</div>
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#services">Serviços</a></li>
+            <li><a class="title" href="#testimonials">Depoimentos</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <div class="icon-menu toggle"></div>
+        <div class="icon-x toggle"></div>
       </nav>
     </header>
 
     <main>
       <section class="section" id="home">
         <div class="container grid">
-
-          <!--Só escrevendo .container, ele ja preencheu essa div pra mim-->
-
           <div class="image">
             <img
             src="https://images.unsplash.com/photo-1586975146971-6dfc6c09e164?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bW90b3Job21lfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
@@ -47,9 +52,9 @@
           />
           </div>
           <div class="text">
-            <h1>Um novo ambiente todos os dias</h1>
+            <h2 class="title">Um novo ambiente todos os dias</h2>
           <p>
-            Venha conhecer nossas ofertas de MotorHomes, e tenha sua liberdade
+            Venha conhecer nossas ofertas de MotorHomes, e veja sua liberdade
           </p>
           <a class= "button" href="#">Nossa Localização</a>
           </div>
@@ -58,9 +63,55 @@
       
       <div class= "divider-1"></div>
 
-      <section class="section">
-         <div class="container">outra section</div>
+      <section class="section" id="about">
+         <div class="container grid">
+           <div class="image">
+             <img src="https://media.istockphoto.com/photos/motorized-home-parked-in-rest-area-picture-id1320517845?b=1&k=20&m=1320517845&s=170667a&w=0&h=e2yWB7Xe767wRAQdrwyrI5PPvaZGQH7O619i1Fy6e40=" alt="MotorHome andando na estrada">
+           </div>
+           <div class="text">
+             <h2 class="title">Sobre nós</h2>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit dicta vel, deleniti recusandae consectetur, consequatur quasi iusto ipsa qui a quas repellat. Corrupti odio nisi sapiente magni earum at ut?</p>
+             <br>
+             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga aliquid numquam porro vero ex. Nihil temporibus vero sed enim, quisquam atque odio reprehenderit! Modi nemo aut atque quaerat est voluptates.</p>
+             <br>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro eaque quasi cupiditate tempora laborum quam, veritatis modi officiis! Cum repellendus libero odit eaque neque sequi iste consequatur blanditiis incidunt dolore.</p>
+           </div>
+         </div>
+      </section>
+
+      <div class= "divider-2"></div>
+
+      <section class="section" id="services">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Serviços</h2>
+            <p>
+              Com mais de 10 anos no mercado, a <strong>fastHome</strong>
+              conquistou clientes de inúmeros países com seus veículos
+              exclusivos e de alta qualidade.
+            </p>
+          </header>
+          <div class="cards">
+            <div class="card">
+              <i class="icon-home-outline"></i>
+              <h3 class="title">Terapia Capilar</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur veritatis, repellat temporibus nostrum assumenda modi cumque tempora porro sunt incidunt saepe nulla libero explicabo nihil esse? Consequatur nostrum accusantium saepe.</p>
+            </div>
+            <div class="card">
+              <i class="icon-truck"></i>
+              <h3 class="title">Cortes</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe similique atque beatae. Minima natus expedita nihil ipsum aperiam in dolor ipsam laborum amet nisi voluptatem veritatis, sit cumque deserunt quia?</p>
+            </div>
+            <div class="card">
+              <i class="icon-tools-2"></i>
+              <h3 class="title">Tratamentos</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est libero deleniti aut voluptatum, atque doloribus magnam optio sunt illum nulla repudiandae non fuga velit totam suscipit! Quae esse eos nostrum!</p>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
+
+    <script src="main.js"></script>
   </body>
 </html>
