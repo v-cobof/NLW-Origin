@@ -25,6 +25,7 @@ img {
 
   /*Colors*/
   --hue: 240;
+
   /*HSL Color Mode*/
   --base-color: hsl(var(--hue) 36% 57%);
   --base-color-second: hsl(var(--hue) 65% 88%);
@@ -163,7 +164,8 @@ nav ul li a {
   position: relative;
 }
 
-nav ul li a:hover {
+nav ul li a:hover,
+nav ul li a.active {
   color: var(--base-color);
 }
 
@@ -195,6 +197,10 @@ nav .menu ul {
   display: none;
 }
 
+/*nav .icon-x {
+  display: none;
+}*/
+
 nav.show .menu {
   opacity: 1;
   visibility: visible;
@@ -220,6 +226,7 @@ nav.show ul.grid {
   gap: 4rem;
 }
 
+
 /*toggle menu*/
 .toggle {
   color: var(--base-color);
@@ -232,20 +239,20 @@ nav .icon-x {
   opacity: 0;
 
   position: absolute;
+  top: -1.5rem;
   right: 1.5rem;
-
-  transition: 0.2s;
 }
 
 nav.show div.icon-x {
   visibility: visible;
   opacity: 1;
   top: 1.5rem;
+  transition: 0.2s;
 }
 
-nav ul.grid {
+/*nav ul.grid {
   gap: 4rem;
-}
+}*/
 
 main {
   margin-top: calc(var(--header-height) + 2rem);
