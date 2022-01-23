@@ -250,10 +250,6 @@ nav.show div.icon-x {
   transition: 0.2s;
 }
 
-/*nav ul.grid {
-  gap: 4rem;
-}*/
-
 main {
   margin-top: calc(var(--header-height) + 2rem);
 }
@@ -356,7 +352,7 @@ main {
   border-bottom: 0.25rem solid var(--base-color);
   border-radius: 0.25rem 0.25rem 0 0;
   text-align: center;
-  margin: 1rem;
+  /*margin: 1rem;*/
 }
 
 .card i {
@@ -366,7 +362,7 @@ main {
   color: var(--base-color);
 }
 
-.card title {
+.card .title {
   font-size: 1.5rem;
   margin-bottom: 0.75rem;
 }
