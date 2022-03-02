@@ -24,7 +24,8 @@ img {
   --header-height: 4.5rem;
 
   /*Colors*/
-  --hue: 240;
+  /*--hue: 240;*/
+  --hue: 190;
 
   /*HSL Color Mode*/
   --base-color: hsl(var(--hue) 36% 57%);
@@ -125,7 +126,7 @@ body {
   margin-bottom: 4rem;
 }
 
-.section header strong {
+.section strong {
   color: var(--base-color);
 }
 
@@ -380,6 +381,7 @@ nav.show div.icon-x {
   font-size: 1.5rem;
   margin-bottom: 0.75rem;
 }
+
 /*========== TESTIMONIALS =============*/
 
 #testimonials {
